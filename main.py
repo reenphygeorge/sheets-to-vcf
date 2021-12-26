@@ -41,6 +41,7 @@ def vcf(name):
         f.write("BEGIN:VCARD\nFN:"+fn+"\nTEL:"+tel+"\nEND:VCARD\n\n")
     
     os.renames('temp.txt', 'contact.vcf')
+    print("VCF Exported Succesfully")
         
 name = rename()
 vcf(name)
