@@ -1,5 +1,5 @@
 # sheets-to-vcf
-A python program with batch renaming feature to convert xlsx sheets to VCF.
+A python script to convert xlsx sheets to VCF with batch renaming feature.
 
 # How to use:
 * Clone this repo
