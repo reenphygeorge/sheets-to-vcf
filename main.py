@@ -6,6 +6,7 @@ from openpyxl import load_workbook
 from openpyxl.utils import get_column_letter
 import os
 a=(input("Enter the name of file : "))
+a=a+".xlsx"
 wb = load_workbook(a)
 ws = wb.active
 
