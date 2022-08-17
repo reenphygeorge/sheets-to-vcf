@@ -5,8 +5,8 @@
 from openpyxl import load_workbook
 from openpyxl.utils import get_column_letter
 import os
-
-wb = load_workbook('sheet.xlsx')
+a=(input("Enter the name of file : "))
+wb = load_workbook(a)
 ws = wb.active
 
 # function to group rename
