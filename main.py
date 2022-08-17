@@ -23,7 +23,7 @@ def rename():
         exl = exl + " " + str_append
         ws[get_column_letter(name) + str(i)].value = exl
 
-    wb.save('sheet.xlsx')
+    wb.save(a)
     print("Successfully Renamed ")
     return name
 
