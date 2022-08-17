@@ -19,5 +19,5 @@ A python script to convert xlsx sheets to VCF with batch renaming feature.
       
 * Now run the code
 
-
+*For Windows users if you get a .txt file instead of .vcf file, just manually change the extension to .vcf
 
