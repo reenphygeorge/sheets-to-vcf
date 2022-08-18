@@ -5,8 +5,9 @@
 from openpyxl import load_workbook
 from openpyxl.utils import get_column_letter
 import os
-
-wb = load_workbook('sheet.xlsx')
+a=(input("Enter the name of file : "))
+a=a+".xlsx"
+wb = load_workbook(a)
 ws = wb.active
 
 # function to group rename
@@ -23,7 +24,7 @@ def rename():
         exl = exl + " " + str_append
         ws[get_column_letter(name) + str(i)].value = exl
 
-    wb.save('sheet.xlsx')
+    wb.save(a)
     print("Successfully Renamed ")
     return name
 
